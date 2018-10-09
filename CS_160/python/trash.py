@@ -13,3 +13,7 @@ if x==0:
     music.remove("Parsons")
 print (music)
 print (music[2])
+games = ["Overwatch","Smash",]
+print (games)
+games.append("Xenoblade")
+print (games)
