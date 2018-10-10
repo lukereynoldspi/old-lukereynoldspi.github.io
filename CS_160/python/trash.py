@@ -17,8 +17,19 @@ if x == ("games"):
 
 if x == ("music"):
     print ("So you like music?")
+    print ("What is your favorite?")
+    print ("a. ELO")
+    print ("b. Bowie")
+    print ("c. Rogers")
+    x = input()
+    if x == ("a","A","a."):
+        print ("That's out of the blue")
+    if x == ("b"):
+        print ("You are like a Star, man")
+    if x == ("c"):
+        print ("Hold it!")
 
-    print ("Hello World!")
+print ("Hello World!")
 music = ["ELO", "Bowie", "Parsons" ]
 x=0
 print (music[0])
