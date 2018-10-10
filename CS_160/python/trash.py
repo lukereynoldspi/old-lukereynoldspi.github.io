@@ -17,3 +17,5 @@ games = ["Overwatch","Smash",]
 print (games)
 games.append("Xenoblade")
 print (games)
+music.sort()
+print (music)
