@@ -1,7 +1,7 @@
 
 @font-face { font-family: BladeRunner; src: url('fonts/BLADERUNNER.TTF'); }
         body {
-            background-image: url("images/galaxy.jpg");
+            background-image: url("images/cyberpunk.jpg");
         }
         
         h1 {
@@ -9,7 +9,7 @@
             text-align: center;
             font-family: BladeRunner;
             font-size: 40px;
-            text-shadow: 2px 2px black;
+            text-shadow: 5px 0px black;
         }
         
         p {
@@ -25,14 +25,18 @@
             text-align: center;
             font-family: BladeRunner;
             font-size: 40px;
-            text-shadow: 2px 2px black;
+            text-shadow: 5px 0px black;
         }
         a {
             color: white;
             text-align: center;
             font-family: BladeRunner;
             font-size: 40px;
-            text-shadow: 2px 2px black;
+            text-shadow: 5px 0px black;
+        }
+        a:hover {
+            color: aqua;
+
         }
         li {text-align: center;
         }
