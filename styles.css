@@ -38,6 +38,13 @@
         }
         a:hover {
             color: aqua;
+            opacity: 1;
+           
+          
+            /*Glow*/
+           -webkit-box-shadow: 0px 0px 500px aqua;
+           -moz-box-shadow: 0px 0px 500px aqua;
+           box-shadow: 0px 0px 500px aqua;
 
         }
         li {text-align: center;
