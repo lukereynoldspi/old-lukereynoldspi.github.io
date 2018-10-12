@@ -50,10 +50,20 @@
         li {text-align: center;
         }
         img {
+            border: 5px solid white;
+            float: center;
+            margin: 15px;
+            transition: 0ms;
+            -webkit-transition: margin 0.5s ease-out;
+            -moz-transition: margin 0.5s ease-out;
+            -o-transition: margin 0.5s ease-out;
     
             border-radius: 50%;
         }
         img:hover {  
+            
+
+            margin-top: 2px;
             opacity: 1;
             
             /*Reflection*/
