@@ -35,16 +35,21 @@
             font-family: BladeRunner;
             font-size: 40px;
             text-shadow: 5px 0px black;
+            
         }
         a:hover {
             color: aqua;
             opacity: 1;
-           
-          
+            zoom: 1.1;
+            
             /*Glow*/
-           -webkit-box-shadow: 0px 0px 500px aqua;
-           -moz-box-shadow: 0px 0px 500px aqua;
-           box-shadow: 0px 0px 500px aqua;
+            -webkit-box-shadow: 0px 0px 500px aqua;
+            -moz-box-shadow: 0px 0px 500px aqua;
+            box-shadow: 0px 0px 500px aqua;
+            transition: 0ms;
+            -webkit-transition: margin 0.5s ease-out;
+            -moz-transition: margin 0.5s ease-out;
+            -o-transition: margin 0.5s ease-out;
 
         }
         li {text-align: center;
