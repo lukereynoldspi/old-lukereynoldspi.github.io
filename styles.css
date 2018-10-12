@@ -1,7 +1,9 @@
 
-@font-face { font-family: BladeRunner; src: url('fonts/BLADERUNNER.TTF'); }
+@font-face { font-family: Snes; src: url('fonts/snes.ttf'); }
+@font-face { font-family: BladeRunner; src: url('fonts/bladerunner.ttf'); }
+@font-face { font-family: Lazer; src: url('fonts/lazer84.ttf'); }
         body {
-            background-image: url("images/cyberpunk.jpg");
+            background-image: url("images/sunrising.png");
         }
         
         h1 {
