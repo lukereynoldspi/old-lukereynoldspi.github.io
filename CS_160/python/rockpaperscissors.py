@@ -7,7 +7,7 @@ def game():
     print  ("Rock, Paper, Scissors!")
     print  ("I have made my choice. Make YOURS:")
     print ("---------------------------------------------------------------------------------")
-    x = raw_input()
+    x = input()
     print ("---------------------------------------------------------------------------------")
     if x == "Rock":
         y = 1
