@@ -26,21 +26,21 @@ print ("GO!")
 print ("---------------------------------------------------------------------------------")
 if z == 1:
     if y == 1:
-        print ("TIE")
+        print ("TIE, we both chose rock")
         x = input("Press enter to exit")
     if y == 2:
-        print ("You lose, I chose rock :)")
+        print ("You win, I chose rock :(")
         x = input("Press enter to exit")
     if y == 3:
-        print ("You win, I chose rock :(")
+        print ("You lose, I chose rock :)")
         x = input("Press enter to exit")
 
 if z == 2:
     if y == 1:
-        print ("TIE")
+        print ("You lose, I chose paper :)")
         x = input("Press enter to exit")
     if y == 2:
-        print ("You lose, I chose paper :)")
+        print ("TIE, we both chose paper")
         x = input("Press enter to exit")
     if y == 3:
         print ("You win, I chose paper :(")
@@ -48,11 +48,11 @@ if z == 2:
 
 if z == 3:
     if y == 1:
-        print ("TIE")
+        print ("You win, I chose scissors :(")
         x = input("Press enter to exit")
     if y == 2:
         print ("You lose, I chose scissors :)")
         x = input("Press enter to exit")
     if y == 3:
-        print ("You win, I chose scissors :(")
+        print ("TIE, we both chose scissors")
         x = input("Press enter to exit")
