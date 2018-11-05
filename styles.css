@@ -86,9 +86,9 @@
            -webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(.7, transparent), to(rgba(0,0,0,0.4)));
           
             /*Glow*/
-           -webkit-box-shadow: 0px 0px 500px orange;
-           -moz-box-shadow: 0px 0px 500px orange;
-           box-shadow: 0px 0px 500px orange;
+           -webkit-box-shadow: 0px 0px 500px aqua;
+           -moz-box-shadow: 0px 0px 500px aqua;
+           box-shadow: 0px 0px 500px aqua;
          }  
 
        
