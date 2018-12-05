@@ -46,28 +46,28 @@ def mastermind():
                     print ("C")
                 if item in colorlist [1-3] and item not in colorlist[0]:
                     print ("B")
-                if item not in colorlist[0-3]:
+                elif item not in colorlist[0-3]:
                     print("N")
             for item in guess[1]:
                 if item in colorlist[1]:
                     print ("C")
                 if item in colorlist[0] or colorlist[2-3] and item not in colorlist[1]:
                     print ("B")
-                if item not in colorlist[0-3]:
+                elif item not in colorlist[0-3]:
                     print("N")
             for item in guess[2]:
                 if item in colorlist[2]:
                     print ("C")
                 if item in colorlist[0-1] or colorlist[3] and item not in colorlist[2]:
                     print ("B")
-                if item not in colorlist[0-3]:
+                elif item not in colorlist[0-3]:
                     print("N")
             for item in guess[3]:
                 if item in colorlist[3]:
                     print ("C")
                 if item in colorlist[0-2] and item not in colorlist[3]:
                     print ("B")
-                if item not in colorlist[0-3]:
+                elif item not in colorlist[0-3]:
                     print("N")
                     
 
